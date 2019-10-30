@@ -97,24 +97,20 @@ nav a {
 header {
 	max-width: 100%;
 	margin: 50px 0px;
-	overflow: hidden;
 }
 .headerText {
-	float: left;
-	width: 60%;
+	display: inline-block;
+	width: 56%;
 	text-align: center;
-	padding: 50px 0;
+	vertical-align: top;
+	padding-top: 5%;
 }
 h1 {
 	font-size: 76px;
 }
 .headerImage {
-	float: right;
-	width: 40%;
-}
-.headerImage > img {
-	display: block;
-	float: right;
+	display: inline-block;
+	width: 43%;
 }
 button {
 	font-size: 16px;
@@ -124,7 +120,6 @@ button {
 }
 hr {
 	margin: 50px 0px;
-	clear: both;
 }
 
 /* First Section */
