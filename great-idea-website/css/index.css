@@ -129,6 +129,11 @@ section {
 }
 /* Middle Image */
 .middle-img {
-	display: block;
+	display: inline-block;
 	margin: 20px auto;
+}
+/* Second Section */
+.col-3 {
+	width: 33%;
+	float: left;
 }
