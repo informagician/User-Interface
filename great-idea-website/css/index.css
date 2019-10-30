@@ -64,3 +64,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+h1 {
+	font-size: 72px;
+}
+.container {
+	width: 960px;
+	margin:0 auto;
+	border:1px solid grey;
+}
+.navbar {
+	height: 80px;
+	line-height: 80px;
+}
+.navbar img {
+	float: right;
+	margin-top: 20px;
+}
+nav {
+	display: inline-block;
+	padding:0px 20px 20px 0px;
+}
+nav a {
+	text-decoration: none;
+	color: darkgray;
+	margin-right: 64px;
+}
+header {
+	max-width: 100%;
+	padding: 40px 0;
+	display: table;
+}
+.headerText {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.headerImage {
+	float: left;
+	width: 50%;
+}
