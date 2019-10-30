@@ -65,17 +65,21 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.container {
-	width: 876px;
-	margin:0 auto;
-}
+
 
 /* Navbar Section */
-
+.top {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	box-shadow: lightgrey 1px 1px 5px;
+}
 .navbar {
-	height: 72px;
+	width: 876px;
 	line-height: 72px;
 	vertical-align: middle;
+	margin: 0 auto;
 }
 .navbar img {
 	display: inline-block;
@@ -90,6 +94,14 @@ nav a {
 	text-decoration: none;
 	color: darkgray;
 	margin-right: 60px;
+}
+
+/* Container Section */
+
+.container {
+	width: 876px;
+	margin:0 auto;
+	padding-top: 72px;
 }
 
 /* Header Section */
