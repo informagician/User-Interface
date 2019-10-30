@@ -137,3 +137,12 @@ section {
 	width: 33%;
 	float: left;
 }
+/* Contact section */
+.contact p {
+	margin: 15px 0;
+}
+/* Footer */
+footer {
+	text-align: center;
+	margin-bottom: 100px;
+}
