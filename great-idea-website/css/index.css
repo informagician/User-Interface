@@ -65,15 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 h1 {
-	font-size: 72px;
+	font-size: 76px;
 }
 .container {
-	width: 960px;
+	width: 876px;
 	margin:0 auto;
-	border:1px solid grey;
 }
 .navbar {
-	height: 80px;
+	height: 72px;
 	line-height: 80px;
 }
 .navbar img {
@@ -87,19 +86,49 @@ nav {
 nav a {
 	text-decoration: none;
 	color: darkgray;
-	margin-right: 64px;
+	margin-right: 50px;
 }
 header {
 	max-width: 100%;
-	padding: 40px 0;
-	display: table;
+	margin: 50px 0px;
+	overflow: hidden;
 }
 .headerText {
 	float: left;
-	width: 50%;
+	width: 60%;
 	text-align: center;
+	padding: 50px 0;
 }
 .headerImage {
-	float: left;
+	float: right;
+	width: 40%;
+}
+.headerImage > img {
+	display: block;
+	float: right;
+}
+button {
+	font-size: 16px;
+	padding: 8px 40px;
+	border: 1px solid black;
+	background-color: white;
+}
+hr {
+	margin: 50px 0px;
+	clear: both;
+}
+
+/* First Section */
+section {
+	margin: 40px 0px;
+	overflow: hidden;
+}
+.col-2 {
 	width: 50%;
+	float: left;
+}
+/* Middle Image */
+.middle-img {
+	display: block;
+	margin: 20px auto;
 }
